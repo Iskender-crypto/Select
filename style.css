@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: "Oswald";
+}
+.bg {
+  font-family: "Oswald";
+  font-size: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  background-color: #ff2323;
+  transition: 1s;
+}
+.color {
+  position: absolute;
+  font-family: "Oswald";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 200px;
+  outline: none;
+  border: none;
+}
